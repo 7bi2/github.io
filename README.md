@@ -2,9 +2,9 @@
 - 高速iplc企业专用VPN，30元一个月
 - 可秒开油管、P站 老司机必备工具
 
-安卓手机安装视频教程：https://www.lanzous.com/ia7xr4b
-安卓手机安装视频教程：https://www.lanzous.com/ia7xv7i
-安卓手机安装视频教程：https://www.lanzous.com/ia7xtcb
+1.  安卓手机安装视频教程：https://www.lanzous.com/ia7xr4b
+1. 安卓手机安装视频教程：https://www.lanzous.com/ia7xv7i
+1. 安卓手机安装视频教程：https://www.lanzous.com/ia7xtcb
 
 购买赠送由本人精选的P站精选合集，按照分类排序，保证由你喜欢的小姐姐在里面
 
@@ -17,9 +17,9 @@
 | 官方价格  | 50元  | 100元  | 220元  |
 | 我的价格  | 25元  | 暂不支持季卡  | 暂不支持年卡  |
 
-91AV下载地址：http://share.i91av.org/index/aff/ecUC
-91短视频下载地址：http://invited.91porn004.me/aff-zyvx
-91漫画下载地址：http://91.51rmc.com//aff-rjJx
+1. 91AV下载地址：http://share.i91av.org/index/aff/ecUC
+1. 91短视频下载地址：http://invited.91porn004.me/aff-zyvx
+1. 91漫画下载地址：http://91.51rmc.com//aff-rjJx
 
 以上业务需要办理请联系微信：86002012
 
