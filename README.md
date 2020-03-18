@@ -1,36 +1,285 @@
-## 柒比贰业务
-- 高速iplc企业专用VPN，30元一个月
-- 可秒开油管、P站 老司机必备工具
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WangNingkai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars3.githubusercontent.com/u/23030927?v=4" type="image/png"></head>
 
-1.  安卓手机安装视频教程：https://www.lanzous.com/ia7xr4b
-1. 安卓手机安装视频教程：https://www.lanzous.com/ia7xv7i
-1. 安卓手机安装视频教程：https://www.lanzous.com/ia7xtcb
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars3.githubusercontent.com/u/23030927?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Wang Ningkai</span><a href="https://github.com/WangNingkai">@WangNingkai</a></div>
+      <div id="userbio" style="display: block;">💻 Backend Developer </div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://imwnk.cn">https://imwnk.cn</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Changzhou China</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/WangNingkai/OLAINDEX" target="_blank">
+                        <section>
+                            <div class="section_title">OLAINDEX</div>
+                            <div class="about_section">
+                            <span style="display:block;">✨ Another OneDrive Directory Index  (https://share.imwnk.cn)</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1145</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 314</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/Lablog" target="_blank">
+                        <section>
+                            <div class="section_title">Lablog</div>
+                            <div class="about_section">
+                            <span style="display:block;">🔊 基于Laravel5个人博客系统</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 38</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 16</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/OLAINDEX-CMD" target="_blank">
+                        <section>
+                            <div class="section_title">OLAINDEX-CMD</div>
+                            <div class="about_section">
+                            <span style="display:block;">🍀 Another OneDrive Command Line Client.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 8</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 6</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/simple-dictionary" target="_blank">
+                        <section>
+                            <div class="section_title">simple-dictionary</div>
+                            <div class="about_section">
+                            <span style="display:block;"> 📕一个简单快速的词库工具</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/baidu-translation" target="_blank">
+                        <section>
+                            <div class="section_title">baidu-translation</div>
+                            <div class="about_section">
+                            <span style="display:block;">🎉 百度翻译api接口</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/laravel-mde" target="_blank">
+                        <section>
+                            <div class="section_title">laravel-mde</div>
+                            <div class="about_section">
+                            <span style="display:block;">✔ 现代、简洁、易用的Markdown编辑器</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/laravel-editor-md" target="_blank">
+                        <section>
+                            <div class="section_title">laravel-editor-md</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png?v8" class="emoji"> MarkDown Editor For Laravel5</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/var-dumper" target="_blank">
+                        <section>
+                            <div class="section_title">var-dumper</div>
+                            <div class="about_section">
+                            <span style="display:block;"> 🚧 PHP美化调试工具</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/wangningkai.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">wangningkai.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png?v8" class="emoji"> GitHub Pages</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/pan-decode" target="_blank">
+                        <section>
+                            <div class="section_title">pan-decode</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/soar-cli" target="_blank">
+                        <section>
+                            <div class="section_title">soar-cli</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/utterances-repo" target="_blank">
+                        <section>
+                            <div class="section_title">utterances-repo</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/WangNingkai/yii2-markdown-editor" target="_blank">
+                        <section>
+                            <div class="section_title">yii2-markdown-editor</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png?v8" class="emoji"> Markdown Editor For Yii2</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
 
-购买赠送由本人精选的P站精选合集，按照分类排序，保证由你喜欢的小姐姐在里面
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
 
-------------
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
 
-- APP业务：91AV、91短视频、91漫画 官方五折升级会员
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
 
-| 价格区别  | 月卡  |  季卡 | 年卡  |
-| :------------: | :------------: | :------------: | :------------: |
-| 官方价格  | 50元  | 100元  | 220元  |
-| 我的价格  | 25元  | 暂不支持季卡  | 暂不支持年卡  |
-
-1. 91AV下载地址：http://share.i91av.org/index/aff/ecUC
-1. 91短视频下载地址：http://invited.91porn004.me/aff-zyvx
-1. 91漫画下载地址：http://91.51rmc.com//aff-rjJx
-
-以上业务需要办理请联系微信：86002012
-
-------------
-
-## 白嫖福利
-### 微信公众号：柒比贰社区  不定时更新精品资源。
-    注意：压缩包推荐使用QQ浏览器下载和解压！（手机用户）
-	压缩包无特殊说明，那么解压密码统一为：1
-	公众号文章有打卡区，记得点击一下里面的广告，然后退出即可。
-	广告点击人数越多，更新的速度和资源就越快越好
-### 历史更新记录
-- 3月17更新-出租房中的可爱小姐姐露脸-https://www.lanzous.com/iacp5ob
-- 3月13更新-欧美鲍鱼小姐姐流白汁-https://www.lanzous.com/ia7vxde
+</body></html>
